@@ -15,21 +15,21 @@ class Prompts {
   };
 
   viewRoles() {
-    query.getAllRoles();
+    query.getAllRoles().then(() => this.initiateQuestion());
 
   };
 
   viewEmployees() {
-    query.getAllEmployees();
+    query.getAllEmployees().then(() => this.initiateQuestion());
 
   }
 
   addDepartment() {
-
+    query.addDepartment().then(() => this.initiateQuestion());
   };
 
   addEmployee() {
-
+    query.addEmployee().then(() => this.initiateQuestion());
   };
 
   addRole() {
