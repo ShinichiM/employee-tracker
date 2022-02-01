@@ -33,11 +33,11 @@ class Prompts {
   };
 
   addRole() {
-    query.addRole();
+    query.addRole().then(() => this.initiateQuestion());
   };
 
   updateEmployee() {
-
+    query.updateEmployee().then(() => this.initiateQuestion());
   };
 
   initiateQuestion() {
