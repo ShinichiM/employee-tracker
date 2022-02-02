@@ -87,10 +87,4 @@ class Prompts {
   }
 }
 
-// TO DO
-// prompt for following: 
-// VIEWS: View All Departments, View All Roles, View All Employees
-// ADD: Add a Department, Add a Role, Add an Employee
-// UPDATE: Update an Employee Role
-
 module.exports = Prompts
